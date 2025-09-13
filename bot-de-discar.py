@@ -3,9 +3,8 @@ import os
 from discord.ext import commands
 from dotenv import load_dotenv
 import asyncio
-import equipo 26.maid as maid
-import equipo 26.ensender-ojos as ensender_ojos
-
+import equipo_26.maid as maid
+import equipo_26.ensender_ojos as ensender_ojos
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
