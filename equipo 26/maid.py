@@ -1,4 +1,5 @@
-import cyberpi
+import  cyberpi
+import time
 
 while True:
     if cyberpi.quad_rgb_sensor.is_line("L1",1) == True and cyberpi.quad_rgb_sensor.is_line("R1",1) == True:
@@ -11,4 +12,4 @@ while True:
         cyberpi.mbot2.drive_power(30, -0)
     #aaaaa
     elif cyberpi.quad_rgb_sensor.is_line("L1",1) == False and cyberpi.quad_rgb_sensor.is_line("R1",1) == False:
-        cyberpi.mbot2.drive_power(-30,30)    
+        cyberpi.mbot2.drive_power(-30,30)      
